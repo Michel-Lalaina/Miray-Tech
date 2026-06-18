@@ -60,10 +60,10 @@ export default function Contact() {
             <Button
               onClick={handleOpen}
               variant="contained"
-              fullWidth
+        
               sx={{
                 mt: 6,
-                bgcolor: "#0f172a",
+                bgcolor: "#f172a",
                 py: 1.8,
                 borderRadius: "14px",
                 textTransform: "none",
@@ -86,7 +86,7 @@ export default function Contact() {
               avec notre équipe.
             </p>
 
-            <Button
+            <Button className="w-1/2 "
               onClick={handleOpen}
               variant="contained"
               sx={{
