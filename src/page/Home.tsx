@@ -6,6 +6,7 @@ import Stats from "../components/Stats";
 import Services from "../components/Services";
 import CTA from "../components/CTA";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -19,7 +20,8 @@ export default function Home() {
       <Stats />
       <Services />
       <CTA />
-      <Contact/>
+      <Contact />
+      <Footer />
       
     </main>
   );
